@@ -12,6 +12,6 @@ def decode(string: str, code: dict):
 
 
 my_code_dict = code_dict(list(input("буквы: ")), list(input("шифр: ")))
-print(my_code_dict)
+
 print(encode(input("строка: "), my_code_dict))
 print(decode(input("шифр: "), my_code_dict))

@@ -1,0 +1,6 @@
+chars = input()
+code = input()
+encode = str.maketrans(chars, code)
+decode = str.maketrans(code, chars)
+print(input().translate(encode))
+print(input().translate(decode))
